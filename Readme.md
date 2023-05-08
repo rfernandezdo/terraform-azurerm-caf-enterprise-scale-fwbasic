@@ -1,4 +1,4 @@
-# Enterprise Landing Zone Demo Global Azure Zaragoza 2022 
+# Enterprise Landing Zone Demo Global Azure Zaragoza 2023 
 
 ## Create Launchpad
 
