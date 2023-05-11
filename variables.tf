@@ -41,18 +41,18 @@ variable "connectivity_resources_tags" {
 
 variable "deploy_corp_landing_zones" {
   type    = bool
-  default = true
+  default = false
 }
 
 variable "deploy_online_landing_zones" {
   type    = bool
-  default = true
+  default = false
 }
 
 
 variable "deploy_identity_resources" {
   type    = bool
-  default = true
+  default = false
 }
 
 # Deploy MAnagement Resources With Custom Settings
@@ -60,7 +60,7 @@ variable "deploy_identity_resources" {
 
 variable "deploy_management_resources" {
   type    = bool
-  default = true
+  default = false
 }
 
 variable "log_retention_in_days" {

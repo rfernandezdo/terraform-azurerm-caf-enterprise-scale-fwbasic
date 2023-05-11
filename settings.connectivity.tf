@@ -33,9 +33,10 @@ locals {
               enabled = true
               config = {
                 address_prefix                = "10.100.0.0/24"
+                address_management_prefix     = "10.100.2.0/24"
                 enable_dns_proxy              = true
                 dns_servers                   = []
-                sku_tier                      = ""
+                sku_tier                      = "Basic"
                 base_policy_id                = ""
                 private_ip_ranges             = []
                 threat_intelligence_mode      = ""

@@ -5,7 +5,7 @@
 # Map each module provider to their corresponding `azurerm` provider using the providers input object
 module "enterprise_scale" {
   source  = "Azure/caf-enterprise-scale/azurerm"
-  version = "2.0.0"
+  version = "4.0.1"
 
   providers = {
     azurerm              = azurerm
@@ -14,6 +14,10 @@ module "enterprise_scale" {
     azurerm.identity = azurerm.identity
   }
 
+  # Default location
+
+  default_location = var.management_resources_location
+  
   # Set the required input variable `root_parent_id` using the Tenant ID from the un-aliased provider
   root_parent_id           = data.azurerm_client_config.core.tenant_id
   root_id = var.root_id

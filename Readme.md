@@ -1,4 +1,4 @@
-# Enterprise Landing Zone Demo Global Azure Zaragoza 2023 
+# Enterprise Landing Zone with Azure Firewall Basic Demo Global Azure 2023 
 
 ## Create Launchpad
 
